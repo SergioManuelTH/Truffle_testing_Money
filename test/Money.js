@@ -1,6 +1,6 @@
 const Money = artifacts.require('Money');
-const expect = require('chai').expect;
-const time = require('./utils/time');
+const expect = require('chai').expect; //npm i chai
+const time = require('./utils/time');  //create a new folder
 
 contract('Money', accounts => {
   [alice, bob] = accounts;
